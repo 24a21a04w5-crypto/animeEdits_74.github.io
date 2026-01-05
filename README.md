@@ -3,7 +3,7 @@
 
 <div align="center">
 
-![Anime Edits Banner](https://outside-harlequin-oqebkuilq2.edgeone.app/Screenshot%202026-01-05%20192050.png)
+![Anime Edits Banner](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2gGJHgHaf6_4iShBgr7qr68tDEE7MPGdmC70aQYepP2vH3Xsu7UMIDjS1&s=10)
 ![Creative Content](https://img.shields.io/badge/Creative-Content-F7B32B?style=for-the-badge)
 ![High Quality](https://img.shields.io/badge/Quality-Premium-004E89?style=for-the-badge)
 
