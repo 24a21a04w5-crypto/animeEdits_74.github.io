@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOP 37 AI TOOLS - animeedits_74</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5a88e 0%, #e89b7e 50%, #f0b49a 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #fff;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .profile-badge {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 5px solid rgba(255, 255, 255, 0.9);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+            z-index: 100;
+            animation: floatBadge 3s ease-in-out infinite;
+        }
+
+        .profile-badge img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        @keyframes floatBadge {
+            0%, 100% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        .profile-badge {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 5px solid rgba(255, 255, 255, 0.9);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+            z-index: 100;
+            animation: floatBadge 3s ease-in-out infinite;
+        }
+
+        .profile-badge img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        @keyframes floatBadge {
+            0%, 100% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 0;
+            animation: fadeInDown 1s ease;
+            margin-top: 60px;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+
+        .subtitle {
+            font-size: 1.5rem;
+            font-style: italic;
+            opacity: 0.95;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+            margin-bottom: 15px;
+        }
+
+        .creator {
+            font-size: 1.3rem;
+            font-weight: 600;
+            background: rgba(255, 255, 255, 0.25);
+            backdrop-filter: blur(10px);
+            padding: 15px 30px;
+            border-radius: 15px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .creator a {
+            color: #fff;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .creator a:hover {
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+        }
+
+        .motivational-quote {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            padding: 25px;
+            border-radius: 20px;
+            margin: 30px 0;
+            text-align: center;
+            font-size: 1.2rem;
+            font-weight: 500;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+            animation: fadeIn 1.5s ease;
+        }
+
+        .category {
+            margin-bottom: 50px;
+            animation: fadeInUp 1s ease;
+        }
+
+        .category-title {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            padding: 15px 25px;
+            background: rgba(255, 255, 255, 0.25);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            display: inline-block;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .tool-card {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            transition: all 0.3s ease;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .tool-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+            background: rgba(255, 255, 255, 1);
+        }
+
+        .tool-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        .tool-number {
+            min-width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #f5a88e, #e89b7e);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 1rem;
+            flex-shrink: 0;
+        }
+
+        .tool-name {
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #e89b7e;
+            word-break: break-word;
+        }
+
+        .tool-category {
+            font-size: 0.85rem;
+            color: #888;
+            margin-bottom: 12px;
+            font-weight: 500;
+            padding: 5px 10px;
+            background: #f0f0f0;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        .tool-description {
+            font-size: 0.9rem;
+            color: #666;
+            line-height: 1.5;
+            margin-bottom: 15px;
+            flex-grow: 1;
+        }
+
+        .tool-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background: linear-gradient(135deg, #f5a88e, #e89b7e);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 0.95rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+
+        .tool-link:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 12px rgba(232, 155, 126, 0.4);
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            font-style: italic;
+            opacity: 0.9;
+            font-size: 1.1rem;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .profile-badge {
+                width: 80px;
+                height: 80px;
+                border: 3px solid rgba(255, 255, 255, 0.9);
+            }
+
+            h1 {
+                font-size: 2.5rem;
+            }
+            
+            .tools-grid {
+                grid-template-columns: 1fr;
+            }
+
+            header {
+                margin-top: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-badge">
+            <img src="https://wallpapers.com/images/hd/monkey-d-luffy-smiling-pictures-bmql7e79knh01ia2.jpg" alt="Monkey D. Luffy" onerror="this.src='https://cdn.myanimelist.net/images/characters/9/310307.jpg'">
+        </div>
+
+        <header>
+            <h1>TOP 37 AI TOOLS</h1>
+            <p class="subtitle">The Ultimate AI Tools Collection</p>
+            <div class="creator">
+                Curated by <a href="https://instagram.com/animeedits_74" target="_blank">@animeedits_74</a>
+            </div>
+        </header>
+
+        <div class="motivational-quote">
+            "I'm gonna be King of the Pirates! Never give up - Discover the power of AI ✨"
+        </div>
+
+        <div class="category">
+            <h2 class="category-title">🎨 Image Generator & Editing</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <span class="tool-number">1</span>
+                        <h3 class="tool-name">Leonardo.Ai</h3>
+                    </div>
+                    <p class="tool-category">Image Generator</p>
+                    <p class="tool-description">Create AI Art and turn your imaginations into reality with Imagine's AI Art Generator and produce stunning visuals to cover up your artistic thought</p>
+                    <a href="https://app.leonardo.ai/?via=anton-voroniuk" class="tool-link" target="_blank">Visit Site →</a>
+                </div>
+                
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <span class="tool-number">2</span>
+                        <h3 class="tool-name">NightCafe Studio</h3>
+                    </div>
+                    <p class="tool-category">Image Generator</p>
+                    <p class="tool-description">AI Art Generator. Create amazing artworks using the power of Artificial Intelligence.</p>
+                    <a href="https://nightcafe.firstpromoter.com/" class="tool-link" target="_blank">Visit Site →</a>
+                </div>
+                
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <span class="tool-number">3</span>
+                        <h3 class="tool-name">Neural Love</h3>
+                    </div>
+                    <p class="tool-category">Image Generator</p>
+                    <p class="tool-description">Free AI Art Generator that's generated over 5 million images. Create a stunning masterpiece by throwing 2-3 words to AI.</p>
+                    <a href="https://neural.love" class="tool-link" target="_blank">Visit Site →</a>
+                </div>
+                
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <span class="tool-number">4</span>
+                        <h3 class="tool-name">Openart</h3>
+                    </div>
+                    <p class="tool-category">Image Generator</p>
+                    <p class="tool-description">Search 10M+ of AI art and prompts generated by DALL·E 2, Midjourney, Stable Diffusion</p>
+                    <a href="http://openart.ai" class="tool-link" target="_blank">Visit Site →</a>
+                </div>
+                
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <span class="tool-number">5</span>
+                        <h3 class="tool-name">Magic Studio</h3>
+                    </div>
+                    <p class="tool-category">Image Editing</p>
+                    <p class="tool-description">Remove unwanted things from images in seconds. Upload an image, mark the bit you need removed, download the fixed up image.</p>
+                    <a href="https://magicstudio.com/" class="tool-link" target="_blank">Visit Site →</a>
+                </div>
+                
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <span class="tool-number">6</span>
+                        <h3 class="tool-name">Getimg</h3>
+                    </div>
+                    <p class="tool-category">Image Generator</p>
+                    <p class="tool-description">Everything you need to create images with AI. Generate original images, modify existing ones, expand pictures beyond its original borders, and more.</p>
+                    <a href="https://getimg.ai/" class="tool-link" target="_blank">Visit Site →</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2 class="category-title">🎭 Logo & Avatar Generators</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <span class="tool-number">7</span>
+                        <h3 class="tool-name">Looka</h3>
+                    </div>
+                    <p class="tool-category">Logo Generator</p>
+                    <p class="tool-description">Logo Maker combines your logo design preferences with Artificial Intelligence to help you create a custom logo you'll love.</p>
+                    <a href="https://looka.partnerlinks.io/uk33s65x7rir" class="tool-link" target="_blank">Visit Site →</a>
+                </div>
+                
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <span class="tool-number">8</span>
+                        <h3 class="tool-name">PhotoAI</h3>
+                    </div>
+                    <p class="tool-category">Avatars</p>
+                    <p class="tool-description">Create AI photos of yourself. Generate 30 photos of yourself in our best artistic styles.</p>
+                    <a href="https://app.photoai.me" class="tool-link" target="_blank">Visit Site →</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2 class="category-title">✍️ Copywriting</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <span class="tool-number">9</span>
+                        <h3 class="tool-name">Digital First AI</h3>
+                    </div>
+                    <p class="tool-category">Copywriting</p>
+                    <p class="tool-description">Create marketing plans in seconds using AI. Find the best growth-hacking tactics for your business with AI.</p>
+                    <a href="https://app.digitalfirst.ai/" class="tool-link" target="_blank">Visit Site →</a>
+                </div>
+                
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <span class="tool-number">10</span>
+                        <h3 class="tool-name">Simplified</h3>
+                    </div>
+                    <p class="tool-category">Copywriting</p>
+                    <p class="tool-description">AI Writer is a free ai copywriting assistant that generates high-quality content for blogs, articles, product descriptions, websites & social media.</p>
+                    <a href="https://simplified.com" class="tool-link" target="_blank">Visit Site →</a>
+                </div>
+                
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <span class="tool-number">11</span>
+                        <h3 class="tool-name">Adcreative.ai</h3>
+                    </div>
+                    <p class="tool-category">Copywriting</p>
+                    <p class="tool-description">Generate conversion focused ad and social media post creatives in a matter of seconds. Get better results while saving time.</p>
+                    <a href="https://adcreative.ai/" class="tool-link" target="_blank">Visit Site →</a>
+                </div>
+                
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <span class="tool-number">12</span>
+                        <h3 class="tool-name">Rytr</h3>
+                    </div>
+                    <p class="tool-category">Copywriting</p>
+                    <p class="tool-description">AI writing assistant that helps you create high-quality content, in just a few seconds, at a fraction of the cost!</p>
+                    <a href="https://rytr.me/" class="tool-link" target="_blank">Visit Site →</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2 class="category-title">📝 Content Generator</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <span class="tool-number">13</span>
+                        <h3 class="tool-name">MarketMuse</h3>
+                    </div>
+                    <p class="tool-category">Content Generator</p>
+                    <p class="tool-description">Analyzes your entire website to give you personalized, objective insights so you can confidently plan better and faster.</p>
+                    <a href="https://www.marketmuse.com/" class="tool-link" target="_blank">Visit Site →</a>
+                </div>
+                
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <span class="tool-number">14</span>
+                        <h3 class="tool-name">AI-Writer</h3>
+                    </div>
+                    <p class="tool-category">Content Generator</p>
+                    <p class="tool-description">Most accurate content generation platform. Uses state-of-the-art AI writing models to generate articles from just a headline.</p>
+                    <a href="https://ai-writer.com/" class="tool-link" target="_blank">Visit Site →</a>
+                </div>
+                
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <span class="tool-number">15</span>
+                        <h3 class="tool-name">WordHero</h3>
+                    </div>
+                    <p class="tool-category">Content Generator</p>
+                    <p class="tool-description">With AI technology, you can create original blog posts, social media content, emails, and more - in just seconds.</p>
+                    <a href="https://wordhero.co/" class="tool-link" target="_blank">Visit Site →</a>
+                </div>
+                
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <span class="tool-number">16</span>
+                        <h3 class="tool-name">Growthbar</h3>
+                    </div>
+                    <p class="tool-category">Content Generator</p>
+                    <p class="tool-description">Write perfect SEO-friendly content for blog posts, website pages, and articles with AI.</p>
+                    <a href="https://growthbarseo.com/skillsbooster?afmc=1dg" class="tool-link" target="_blank">Visit Site →</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2 class="category-title">🎓 Design & Education</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <span class="tool-number">17</span>
+                        <h3 class="tool-name">StockImg AI</h3>
+                    </div>
+                    <p class="tool-category">Design Assistant</p>
+                    <p class="tool-description">Text to design service with AI. Generate logos, stock images, posters, book covers, and more designs using AI.</p>
+                    <a href="https://stockimg.ai/?via=anton" class="tool-link" target="_blank">Visit Site →</a>
+                </div>
+                
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <span class="tool-number">18</span>
+                        <h3 class="tool-name">Patterned AI</h3>
+                    </div>
+                    <p class="tool-category">Design Assistant</p>
+                    <p class="tool-description">AI-generated seamless patterns. Generate customised designs for your product or service using AI model.</p>
+                    <a href="https://www.patterned.ai/?via=anton" class="tool-link" target="_blank">Visit Site →</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2 class="category-title">📧 Email Marketing</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <span class="tool-number">19</span>
+                        <h3 class="tool-name">Luna</h3>
+                    </div>
+                    <p class="tool-category">Email Marketing</p>
+                    <p class="tool-description">Personalize Cold Emails Instantly with Luna. World's first software that uses AI to suggest new high-quality leads every day.</p>
+                    <a href="https://luna.ai/?ref=anton86" class="tool-link" target="_blank">Visit Site →</a>
+                </div>
+                
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <span class="tool-number">20</span>
+                        <h3 class="tool-name">Hoppy Copy</h3>
+                    </div>
+                    <p class="tool-category">Email Marketing</p>
+                    <p class="tool-description">Save countless hours writing. Use AI to create powerful content for hundreds of different email campaigns in seconds.</p>
+                    <a href="https://www.hoppycopy.co/?via=anton-voroniuk" class="tool-link" target="_blank">Visit Site →</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2 class="category-title">⚡ General Writing & Productivity</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <span class="tool-number">21</span>
+                        <h3 class="tool-name">Frase</h3>
+                    </div>
+                    <p class="tool-category">General Writing</p>
+                    <p class="tool-description">Offers several useful AI writing tools in categories of copywriting, summarizing, paraphrasing and advertising.</p>
+                    <a href="https://www.frase.io/?via=anton59" class="tool-link" target="_blank">Visit Site →</a>
+                </div>
+                
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <span class="tool-number">22</span>
+                        <h3 class="tool-name">Notion AI</h3>
+                    </div>
+                    <p class="tool-category">General Writing</p>
+                    <p class="tool-description">Leverage the limitless power of AI in any Notion page. Write faster, think bigger, and augment creativity. Like magic!</p>
+                    <a href="https://affiliate.notion.so/aoab0zru471m" class="tool-link" target="_blank">Visit Site →</a>
+                </div>
+                
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <span class="tool-number">23</span>
+                        <h3 class="tool-name">SlidesAI</h3>
+                    </div>
+                    <p class="tool-category">Productivity</p>
+                    <p class="tool-description">Create Presentation Slides with AI in seconds. Let the AI write the outline and presentation content for you.</p>
+                    <a href="http://slidesai.io/?ref=skillsbooster" class="tool-link" target="_blank">Visit Site →</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2 class="category-title">🔍 SEO Tools</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <span class="tool-number">24</span>
+                        <h3 class="tool-name">Writesonic</h3>
+                    </div>
+                    <p class="tool-category">SEO</p>
+                    <p class="tool-description">AI writer that creates SEO-friendly content for blogs, Facebook ads, Google ads, and Shopify for free.</p>
+                    <a href="https://writesonic.com/?fpr=anton62" class="tool-link" target="_blank">Visit Site →</a>
+                </div>
+                
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <span class="tool-number">25</span>
+                        <h3 class="tool-name">Scalenut</h3>
+                    </div>
+                    <p class="tool-category">SEO</p>
+                    <p class="tool-description">Produce content that serves your business goals in a simple and scalable way. Complete blog in just 5 minutes!</p>
+                    <a href="https://scalenut.com/?fpr=anton68" class="tool-link" target="_blank">Visit Site →</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2 class="category-title">🎤 Text To Speech</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <span class="tool-number">26</span>
+                        <h3 class="tool-name">Murf AI</h3>
+                    </div>
+                    <p class="tool-category">Text To Speech</p>
+                    <p class="tool-description">Go from text to speech with a versatile AI voice generator. Make studio-quality voiceovers in minutes with lifelike AI voices.</p>
+                    <a href="https://get.murf.ai/y3jys4t0mgwt" class="tool-link" target="_blank">Visit Site →</a>
+                </div>
+                
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <span class="tool-number">27</span>
+                        <h3 class="tool-name">Play ht</h3>
+                    </div>
+                    <p class="tool-category">Text To Speech</p>
+                    <p class="tool-description">Generate realistic Text to Speech audio using online AI Voice Generator with the best synthetic voices.</p>
+                    <a href="https://www.play.ht/?via=anton-voroniuk" class="tool-link" target="_blank">Visit Site →</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2 class="category-title">🎬 Video Generators</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <span class="tool-number">28</span>
+                        <h3 class="tool-name">Heygen</h3>
+                    </div>
+                    <p class="tool-category">Video and Avatar Generator</p>
+                    <p class="tool-description">Effortlessly produce studio-quality videos with AI-generated avatars and voices.</p>
+                    <a href="https://heygen.com/?sid=rewardful&via=anton-voroniuk" class="tool-link" target="_blank">Visit Site →</a>
+                </div>
+                
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <span class="tool-number">29</span>
+                        <h3 class="tool-name">Fliki</h3>
+                    </div>
+                    <p class="tool-category">Video Generator</p>
+                    <p class="tool-description">Create videos from scripts or blog posts using realistic voices in 2 minutes! Transform blog articles into videos.</p>
+                    <a href="https://fliki.ai/?via=anton-voroniuk" class="tool-link" target="_blank">Visit Site →</a>
+                </div>
+                
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <span class="tool-number">30</span>
+                        <h3 class="tool-name">Synthesia</h3>
+                    </div>
+                    <p class="tool-category">Video Generator</p>
+                    <p class="tool-description">Create AI videos by simply typing in text. Make engaging videos with human presenters directly from your browser.</p>
+                    <a href="https://www.synthesia.io/?via=anton-voroniuk" class="tool-link" target="_blank">Visit Site →</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2 class="category-title">✂️ Video Editing</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <span class="tool-number">31</span>
+                        <h3 class="tool-name">Munch</h3>
+                    </div>
+                    <p class="tool-category">Video Editing</p>
+                    <p class="tool-description">Automagically Turn long-form vids into data-driven short clips for social media with AI.</p>
+                    <a href="https://www.mcd3kdsrk.com/6P5Q9H/2CTPL/" class="tool-link" target="_blank">Visit Site →</a>
+                </div>
+                
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <span class="tool-number">32</span>
+                        <h3 class="tool-name">Gling</h3>
+                    </div>
+                    <p class="tool-category">Video Editing</p>
+                    <p class="tool-description">AI tool made for video content creators. AI will cut silences and bad takes so you can focus on your YouTube videos.</p>
+                    <a href="https://gling.ai/?via=anton" class="tool-link" target="_blank">Visit Site →</a>
+                </div>
+                
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <span class="tool-number">33</span>
+                        <h3 class="tool-name">Pictory</h3>
+                    </div>
+                    <p class="tool-category">Video Editing</p>
+                    <p class="tool-description">Video marketing tool that automatically creates short, highly sharable branded videos from long form content.</p>
+                    <a href="https://pictory.ai/?ref=anton61" class="tool-link" target="_blank">Visit Site →</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2 class="category-title">💻 Website & App Builders</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <span class="tool-number">34</span>
+                        <h3 class="tool-name">Mixo</h3>
+                    </div>
+                    <p class="tool-category">Website Builder</p>
+                    <p class="tool-description">AI-powered website builder that creates professional websites in seconds with no coding required.</p>
+                    <a href="https://www.mixo.io/?via=ea2600" class="tool-link" target="_blank">Visit Site →</a>
+                </div>
+                
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <span class="tool-number">35</span>
+                        <h3 class="tool-name">Riku</h3>
+                    </div>
+                    <p class="tool-category">App Builder</p>
+                    <p class="tool-description">Build AI Apps in Minutes, with No-code</p>
+                    <a href="https://app.riku.ai/?refID=skillsboos-akra1s94wyze44w" class="tool-link" target="_blank">Visit Site →</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="category">
+            <h2 class="category-title">🤖 Chatbots</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <span class="tool-number">36</span>
+                        <h3 class="tool-name">ResolveAI</h3>
+                    </div>
+                    <p class="tool-category">Chatbot</p>
+                    <p class="tool-description">Custom AI Chatbot with your own data, persona, branding.</p>
+                    <a href="https://resolveai.co?fpr=anton86" class="tool-link" target="_blank">Visit Site →</a>
+                </div>
+                
+                <div class="tool-card">
+                    <div class="tool-header">
+                        <span class="tool-number">37</span>
+                        <h3 class="tool-name">Chaindesk</h3>
+                    </div>
+                    <p class="tool-category">Chatbot</p>
+                    <p class="tool-description">Train a custom ChatGPT AI chatbot for your website. Automate support, lead generation, and more.</p>
+                    <a href="https://www.chaindesk.ai/?via=anton" class="tool-link" target="_blank">Visit Site →</a>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Created with ❤️ by <a href="https://instagram.com/animeedits_74" target="_blank" style="color: white; text-decoration: none; font-weight: bold;">@animeedits_74</a></p>
+            <p style="margin-top: 10px;">"I'm gonna be King of the Pirates!" - Monkey D. Luffy ✨</p>
+        </footer>
+    </div>
+</body>
+</html>
