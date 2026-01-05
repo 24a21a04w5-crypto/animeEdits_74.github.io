@@ -3,7 +3,7 @@
 
 <div align="center">
 
-![Anime Edits Banner](yatam-sriram-portfolio.vercel.app/)
+![Anime Edits Banner](https://outside-harlequin-oqebkuilq2.edgeone.app/Screenshot%202026-01-05%20192050.png)
 ![Creative Content](https://img.shields.io/badge/Creative-Content-F7B32B?style=for-the-badge)
 ![High Quality](https://img.shields.io/badge/Quality-Premium-004E89?style=for-the-badge)
 
@@ -186,7 +186,7 @@ This portfolio is built with:
 
 ## 🔗 Quick Links
 
-- 🌐 [Portfolio Website]([https://animeEdits_74.github.io](https://yatam-sriram-portfolio.vercel.app/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAb21jcAPInQZleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA81NjcwNjczNDMzNTI0MjcAAafFhLrGI2cLJpKQpcDJyesgjuT6ag9STZ6x_4h4RRHEJBRQV77qyBY5mQP3cA_aem_Vd5BAKRwLGRHbTgt5cnRzQ))
+- 🌐 [Portfolio Website]([https://animeEdits_74.github.io](https://yatam-sriram-portfolio.vercel.app/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAb21jcAPInQZleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA81NjcwNjczNDMzNTI0MjcAAafFhLrGI2cLJpKQpcDJyesgjuT6ag9STZ6x_4h4RRHEJBRQV77qyBY5mQP3cA_aem_Vd5BAKRwLGRHbTgt5cnRzQ)
 - 📷 [Instagram Profile](https://instagram.com/animeEdits_74)
 - 💬 [Send Feedback](https://instagram.com/animeEdits_74)
 - 📝 [View Repository](https://github.com/animeEdits_74/animeEdits_74.github.io)
